@@ -11,6 +11,10 @@
 		1C5FE4572B60554E00286774 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FE4562B60554E00286774 /* ContentView.swift */; };
 		1C5FE4592B60555000286774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5FE4582B60555000286774 /* Assets.xcassets */; };
 		1C5FE45C2B60555000286774 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5FE45B2B60555000286774 /* Preview Assets.xcassets */; };
+		1C5FE46C2B6059EF00286774 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FE46B2B6059EF00286774 /* LoginView.swift */; };
+		1C5FE46E2B605F2A00286774 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FE46D2B605F2A00286774 /* RegistrationView.swift */; };
+		1C5FE4712B6060D400286774 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FE4702B6060D400286774 /* ThreadsTextFieldModifier.swift */; };
+		1C5FE4732B60644100286774 /* ThreadsButtonLabelModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5FE4722B60644100286774 /* ThreadsButtonLabelModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		1C5FE4562B60554E00286774 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C5FE4582B60555000286774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C5FE45B2B60555000286774 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C5FE46B2B6059EF00286774 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1C5FE46D2B605F2A00286774 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		1C5FE4702B6060D400286774 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
+		1C5FE4722B60644100286774 /* ThreadsButtonLabelModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsButtonLabelModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 		1C5FE4622B60555F00286774 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				1C5FE46F2B6060B500286774 /* viewModifiers */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -127,8 +136,27 @@
 		1C5FE4692B6055C600286774 /* authentication */ = {
 			isa = PBXGroup;
 			children = (
+				1C5FE46A2B6059B300286774 /* views */,
 			);
 			path = authentication;
+			sourceTree = "<group>";
+		};
+		1C5FE46A2B6059B300286774 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1C5FE46B2B6059EF00286774 /* LoginView.swift */,
+				1C5FE46D2B605F2A00286774 /* RegistrationView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		1C5FE46F2B6060B500286774 /* viewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1C5FE4702B6060D400286774 /* ThreadsTextFieldModifier.swift */,
+				1C5FE4722B60644100286774 /* ThreadsButtonLabelModifier.swift */,
+			);
+			path = viewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5FE46C2B6059EF00286774 /* LoginView.swift in Sources */,
 				1C5FE4572B60554E00286774 /* ContentView.swift in Sources */,
+				1C5FE4712B6060D400286774 /* ThreadsTextFieldModifier.swift in Sources */,
 				1C5FE4552B60554E00286774 /* ThreadsCloneApp.swift in Sources */,
+				1C5FE4732B60644100286774 /* ThreadsButtonLabelModifier.swift in Sources */,
+				1C5FE46E2B605F2A00286774 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
